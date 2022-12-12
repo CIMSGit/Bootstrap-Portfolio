@@ -13,6 +13,7 @@ body {
   /* sets margin right */
   .nav{
     margin-right: 30px;
+    margin-top: 30px;
   }
   /* sets links properties */
   a{
@@ -27,3 +28,24 @@ header > h1{
   .jumbotron{
     background-color: transparent;
   }
+
+  .jumbotron img{
+    height: 170px;
+    margin-bottom: 20px;
+  }
+
+  .jumbotron h2{
+    font-size: 40px;
+    text-align:justify;
+  }
+  /* testing purposes */
+  /* .jumbotron img{
+    height: 170px;
+    margin-bottom: 20px;
+    opacity: 1;
+    transition: 0.6 ease;
+
+  }
+  img:hover{
+    opacity: 0.5;
+  } */
