@@ -1,9 +1,7 @@
 *{
     color: aliceblue;
 }
-a{
-    color: aliceblue;
-}
+/* sets bg img and color */
 body {
     background-image:url(./images/bg.jpg);
     background-repeat: no-repeat;
@@ -12,6 +10,20 @@ body {
     background-position: center;
     background-color: rgb(4, 4, 4);
   }
+  /* sets margin right */
+  .nav{
+    margin-right: 30px;
+  }
+  /* sets links properties */
+  a{
+    color: aliceblue;
+}
+/* sets main header */
+header > h1{
+    float: left;
+    margin-left: 30px;
+}
+
 
   .jumbotron{
     background-color: transparent;
