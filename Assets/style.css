@@ -1,0 +1,18 @@
+*{
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+}
+body {
+    background-image:url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-color: rgb(4, 4, 4);
+  }
+
+  .jumbotron{
+    background-color: transparent;
+  }
