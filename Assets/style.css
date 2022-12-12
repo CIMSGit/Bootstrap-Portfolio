@@ -23,8 +23,7 @@ header > h1{
     float: left;
     margin-left: 30px;
 }
-
-
+/* settings for a component showcasing my skill. */
   .jumbotron{
     background-color: transparent;
   }
