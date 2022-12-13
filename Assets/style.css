@@ -101,3 +101,14 @@ footer{
    text-align: center;
    font-size: 18px;
 }
+.card img{
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.card.mb-3 img{
+height:630px;
+width: auto;
+}
