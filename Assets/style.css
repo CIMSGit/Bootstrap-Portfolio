@@ -20,13 +20,12 @@ body {
   /* sets links properties */
   .nav a{
     color: aliceblue;
-    font-size: 20px;
+    font-size: 18px;
     margin-right: 30px;
 }
 a{
   color: aliceblue;
-    font-size: 30px;
-    margin-right: 30px;
+    font-size: 25px;
 }
 /* sets main header */
 header > h1{
@@ -37,6 +36,7 @@ header > h1{
 h1{
     margin-bottom: 0px;
     text-align: right;
+    font-size: 28px;
 }
 
 h2{
@@ -44,8 +44,10 @@ h2{
     
    
 }
-h5,p{
+h5, p{
     color: white;
+    letter-spacing: 1.4;
+    
 }
 /* settings for a component showcasing my skill. */
   .jumbotron{
@@ -92,6 +94,7 @@ h5,p{
     background-color: white;
     color: black;
     border-color: transparent;
+    text-align: center;
 }
 a:hover{
   opacity: 1;
@@ -117,16 +120,26 @@ footer{
   background-position: center;
   background-repeat: no-repeat;
   object-fit: cover;
+  transition: 0.6 ease;
 }
+.card img:hover{
 
+  opacity: 0.8;
+  }
+/* main project  */
 .card.mb-3 img{
 height:630px;
 width: auto;
 }
-
+/* contact details */
 div.col-10.nabarb{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: -5px;
 
+}
+
+div.col-10{
+margin-top: 10px;
 }
